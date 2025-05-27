@@ -126,7 +126,7 @@ Contributions to Project-Z7 are currently restricted. If you are interested in c
 
 For more information, inquiries, or collaboration opportunities:
 
-- **Email**: iindiaidevelopment@gmail.com
+- **Email**: indiaidevelopment@gmail.com
 - **Linkedin**: https://www.linkedin.com/in/yugal-kishor-922119368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 
