@@ -97,7 +97,7 @@ This project is proprietary and confidential. Unauthorized copying, distribution
 - **No Open-Source Components**: This project does not utilize any open-source licenses or components.
 - **Confidentiality**: All aspects of Project-Z7 are confidential and intended solely for authorized personnel.
 
-For licensing inquiries or collaboration requests, please contact [Your Contact Information].
+For licensing inquiries or collaboration requests, please contact indiaidevelopment@gmail.com.
 
 ---
 
