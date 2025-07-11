@@ -1,132 +1,189 @@
+````markdown
 <h1 align="center">
-  🤖 Project-Z7: Advanced AI System with Real-World Capabilities
+  🤖 Warp Agent / Gemma 3n Integration
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=700&color=FEE75C&center=true&width=600&lines=Welcome+to+Project-Z7!;Experience+Next-Gen+AI+Integration;Autonomous+Mobility+and+System+Control" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=700&color=FEE75C&center=true&width=600&lines=Welcome+to+Warp+Agent!;Integrate+Gemma+3n+with+Ollama;Automate+AI+Workflows" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge" alt="Project Status" />
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/badge/AI%20Level-Advanced-blue?style=for-the-badge" alt="AI Level" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/AI%20Model-Gemma%203n-blue?style=for-the-badge" alt="AI Model" />
 </p>
 
 ---
 
 ## 📌 Overview
 
-**Project-Z7** is a cutting-edge Artificial Intelligence system designed for seamless interaction with the real world. Unlike traditional AI models, Project-Z7 integrates advanced reasoning, mobility, memory retention, and system control to function as a fully autonomous, human-like assistant.
+**Warp Agent / Gemma 3n Integration** is a CLI-based toolkit for loading and running the Gemma 3n large language model via Ollama. It automates environment setup, dependency installation, and provides helper commands to streamline AI-driven workflows.
+
+**Project files:**  
+[Download the project ZIP](https://drive.google.com/file/d/1un19GL7qIAaYFD-IcdA5P5o_8xGloqcf/view?usp=sharing)
 
 ---
 
-## 🧠 Key Features
+## 🧰 Prerequisites
 
-### 🔍 Advanced Reasoning System
-- Performs deep, multi-level logical decision-making.
-- Handles complex tasks with intelligent problem-solving capabilities.
-
-### 🚗 Mobility Support
-- Equipped with four wheels for physical movement and navigation.
-- Navigates real-world environments autonomously.
-
-### 🧠 Memory System
-- Dedicated module to remember user data, commands, and preferences.
-- Enables personalized learning and long-term interaction.
-
-### 🔐 User Data Handling
-- Stores user data securely for beneficial purposes only.
-- Enhances user experience through personalized interactions.
-
-### 🎓 Teaching & Assistance Mode
-- Acts as a teaching assistant, explaining concepts and solving doubts in real-time.
-
-### 📩 Messaging System
-- Sends and receives messages (emails, system notifications) through its interface.
-
-### 🖥️ System Control (HUD Integration)
-- Utilizes HUD to interact with computer hardware.
-- Connects via USB to any system, initiating control (keyboard/mouse simulation, file operations).
-
-### 👁️ Vision & Real-World Perception
-- Equipped with vision systems (cameras/sensors) to process surroundings.
-- Understands gestures, objects, and real-world elements.
-
-### 🗣️ Advanced Communication
-- Communicates in Hindi, English, and Hinglish.
-- Engages in human-like conversations.
+- **Operating System:** Windows, macOS, or Linux  
+- **Internet connection**  
+- **Git** (optional)  
+- **Python 3.8+**  
+- **Ollama CLI**  
+- **Visual Studio Code (optional)**  
 
 ---
 
-## 🎯 Usage Scenarios
+## 🚀 Installation & Setup
 
-- **Home Automation**: Control home devices and systems seamlessly.
-- **Personal Assistant**: Manage tasks, schedules, and reminders.
-- **Educational Support**: Assist in teaching and tutoring environments.
-- **Research & Development**: Serve as a tool for AI advancements.
-- **Surveillance & Monitoring**: Monitor environments using vision capabilities.
+### 1. Open your terminal / command prompt
+
+- **Windows:** `Win + R` → `cmd` → **Enter**  
+- **macOS:** `⌘ + Space` → `Terminal` → **Enter**  
+- **Linux:** `Ctrl + Alt + T`
+
+### 2. Clone or download project
+
+```bash
+# via Git
+git clone https://github.com/your-username/warp-agent-gemma3n.git
+cd warp-agent-gemma3n
+
+# or unzip downloaded ZIP
+cd path/to/unzipped-folder
+````
+
+### 3. Python environment
+
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Install Warp Agent CLI
+
+```bash
+pip install warp-agent
+```
+
+Verify:
+
+```bash
+warp --help
+```
 
 ---
 
-## 🚀 Project Goals
+## ⚙️ Configuring VS Code (optional)
 
-- Develop a fully autonomous AI assistant.
-- Create a plug-and-play system via USB for instant control.
-- Implement adaptive learning based on user interactions.
-- Enable human-like communication and advanced reasoning.
-- Integrate vision-based object recognition and environmental awareness.
+1. Install **VS Code**: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+2. **Open Folder** → Select project root
+3. **View → Terminal** → ensure you’re in project directory:
 
----
-
-## 🛠️ Work in Progress
-
-- Optimizing memory system for efficient data handling.
-- Enhancing wheel control and mobility algorithms.
-- Developing robust system control interfaces.
-- Integrating advanced vision processing modules.
+   ```bash
+   cd path/to/warp-agent-gemma3n
+   ```
 
 ---
 
-## ⚠️ Licensing & Usage
+## 💬 Generating Prompts with ChatGPT
 
-**Proprietary License – All Rights Reserved**
+1. **Translate Hindi → English**
+   Ask ChatGPT:
 
-This project is proprietary and confidential. Unauthorized copying, distribution, or use of any part of Project-Z7 is strictly prohibited.
+   > “Translate this to English for a Warp Agent prompt: ‘Mujhe Warp Agent ke liye Gemma 3n integrate karne ka prompt chahiye.’”
+2. **Example output**
 
-- **Usage Restrictions**: No part of this project may be used, copied, modified, or distributed without explicit permission.
-- **No Open-Source Components**: This project does not utilize any open-source licenses or components.
-- **Confidentiality**: All aspects of Project-Z7 are confidential and intended solely for authorized personnel.
+   ```
+   Load Gemma 3n via Ollama, enable GPU, and run inference on ./data/input.
+   ```
 
-For licensing inquiries or collaboration requests, please contact indiaidevelopment@gmail.com.
+---
+
+## 📂 Navigating & Running
+
+* **Check directory**
+
+  ```bash
+  pwd           # macOS / Linux
+  echo %cd%     # Windows
+  ```
+* **Run Warp Agent**
+
+  ```bash
+  warp run --config warp-config.yaml
+  ```
+
+---
+
+## 🐛 Troubleshooting
+
+* **Read errors**: note exact message
+* **Search online**: paste error text in English
+* **Verbose mode**:
+
+  ```bash
+  warp run --verbose
+  ```
+* **Recreate env**
+
+  ```bash
+  deactivate
+  rm -rf venv
+  python -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
+
+---
+
+## 📦 Pull & Run Gemma 3n via Ollama
+
+```bash
+# Install Ollama
+# Windows (PowerShell)
+iwr https://ollama.com/install.ps1 -useb | iex
+
+# macOS / Linux
+curl https://ollama.com/install.sh | sh
+
+# Pull model
+ollama pull gemma-3n
+
+# Run model
+ollama run gemma-3n --prompt "Hello, world!"
+
+# Advanced
+ollama run gemma-3n --gpu --batch-size 2 --prompt-file prompts.txt
+```
 
 ---
 
 ## 📄 License
 
-All Rights Reserved © 2024 IndiAi
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
-THE CONTENTS OF THIS PROJECT ARE PROPRIETARY AND CONFIDENTIAL.
-UNAUTHORIZED COPYING, TRANSFERRING, OR REPRODUCTION OF THE CONTENTS OF THIS PROJECT, VIA ANY MEDIUM, IS STRICTLY PROHIBITED.
-The receipt or possession of the source code and/or any parts thereof does not convey or imply any right to use them
-for any purpose other than the purpose for which they were provided to you.
-
-The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to
-the warranties of merchantability, fitness for a particular purpose, and non-infringement.
-In no event shall the authors or copyright holders be liable for any claim, damages,
-or other liability, whether in an action of contract, tort, or otherwise,
-arising from, out of, or in connection with the software or the use or other dealings in the software.
-
+---
 
 ## 🤝 Contribution
 
-Contributions to Project-Z7 are currently restricted. If you are interested in collaborating or have suggestions, please reach out directly to indiaidevelopment@gmail.com .
+Contributions are welcome! Please fork the repo and open a PR, or raise issues for bug reports and feature requests.
 
+---
 
 ## 📫 Contact
 
-For more information, inquiries, or collaboration opportunities:
+For questions or collaboration:
 
-- **Email**: indiaidevelopment@gmail.com
-- **Linkedin**: https://www.linkedin.com/in/yugal-kishor-922119368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+* **Email:** [indiaidevelopment@gmail.com](mailto:indiaidevelopment@gmail.com)
+* **GitHub:** [https://github.com/your-username/warp-agent-gemma3n](https://github.com/your-username/warp-agent-gemma3n)
 
-
+```
+```
