@@ -1,4 +1,3 @@
-Here you go, bro! Here's your full GitHub-style `README.md`-like documentation written cleanly with proper markdown formatting and code-blocks — looking just like a professional GitHub project:
 
 ````markdown
 <h1 align="center"> 
